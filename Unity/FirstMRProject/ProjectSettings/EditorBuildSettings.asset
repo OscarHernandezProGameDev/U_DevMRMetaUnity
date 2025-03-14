@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HelloMR.unity
-    guid: fbe1f683770fc484fa96867918f74a6d
+    path: Assets/Scenes/HelloMR_HandTracking.unity
+    guid: 761230b846c8a7d40ab2a78d75f54574
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b2015d0ff26085c40ba1c5babaa8ce7c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 479356806eaa947408bfca8b9da722a3, type: 2}
