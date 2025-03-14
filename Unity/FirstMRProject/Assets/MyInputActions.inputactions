@@ -1,0 +1,45 @@
+{
+    "name": "MyInputActions",
+    "maps": [
+        {
+            "name": "ControllerInputs",
+            "id": "a5aaa061-4afc-48be-834a-ef93957aee25",
+            "actions": [
+                {
+                    "name": "TriggerButton",
+                    "type": "Button",
+                    "id": "0cb59046-ff5d-48da-926a-e522e2ad6dc7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8d262c2a-8468-472d-ae5b-76b0be90e99f",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e0fa9c2-d6ba-4ee7-96fa-8ba80eb61a7e",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
